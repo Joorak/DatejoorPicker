@@ -5,15 +5,6 @@
  * license: MIT
  * https://joorak.com
  */
-// importScripts('https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js')
-// importScripts('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js')
-// importScripts('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fa.min.js')
-// importScripts('https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.js')
-
-// import 'https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js';
-// import 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js';
-// import 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fa.min.js';
-// import 'https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.js';
 
 (function() {
   var AllTimeDateRange, ArrayUtils, CalendarHeaderView, CalendarView, Config, CustomDateRange, DateRange, DateRangePickerView, MomentIterator, MomentUtil, Period,

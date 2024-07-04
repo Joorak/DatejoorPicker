@@ -13,7 +13,6 @@
 	  <link rel="stylesheet" href="../src/daterangepicker.css">
     <link rel="icon" href="favicon.ico" />
     <style>
-      @import url('http://cdn.font-store.ir/yekan.css');
       body {
           max-width: 450px;
           margin: 5% auto;
@@ -21,86 +20,48 @@
       }
 
 
-      .input-icons {
-          width: 100%;
-          margin-bottom: 10px;
-          /* direction: ltr; */
-      }
-
-      .input-icons i {
-          position: absolute;
-      }
-
-      .icon {
-          padding: 0.5rem;
-          color: green;
-          min-width: 50px;
-          text-align: center;
-          font-size: xx-large;
-          float: inline-start;
-      }
       .calendar-icon {
-    display: inline-block;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAA3NCSVQICAjb4U/gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYYAAB2GAV2iE4EAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAEjElEQVRYR8VWyyt9XxRf3m955FkeIUyYKBOUKIlSSMmIMvEPGBhIYSBFJhRRBoYMTJhQhAF55BUiRd7v9yv2b32Wc+733HPPVb/6/Xw/te+6e6119l57vfYm9QM2NzdVQkKCIiJVWlqqcb9xe3urampqRJaYmKjm5+c1yTcGBgZEFhISovr7+zWuNZwacXd3p+Lj41VRUZEaHx+XBcvLy0X2+fmpGhoaVFBQkOrr61NZWVkqJSVFHRwciHxjY0P0Ozo6VHNzs3J3d1dDQ0Mis4JTI5aXl5Wfn58sCOTm5ioPDw/5//X1pQoKClR1dbXMOzs7ZVPdiPb2dpkD4Pn7+6vGxkaZW8GdlW3Y3d2l+vp6en9/p+vra3p6eqLX11eR+fj40MfHB1VUVBB7iWZmZqiyslJkLi4u5OXlRVVVVRQWFkZra2vCB7AWvh0cHCQ+GLFXiI0kDqGmwdCMUdvb22K9eSwtLYm8uLjYQVZbWyuyrq4u5e3t7SAH+GAqPDzcQbazsyNywJUZdHFxQRxT/HUALAc4FEKNcHWVz0VH/2+Gm5ubpSw5OZkuLy/lv0g5xjKxAsdU6NnZmVAj7u/vbRRutwJC+Pj4qM3sYdsX7jg6OnJwlz5CQ0MVx9pShoEEDQ4OtpRlZmaqnJwcSxnG8fGxhMMFPzjF6OioJJAZkGFwpUgCGsGlKonr6enpEC5eVmSgvr6+GvcPXl5eqKSkRL4VIzT+3wOMODw8dHDVbwykASCJCZf8DeghlHCcn59TRESEMH4Ct3Gqq6sjvjeI+4I0pZGRESorK6O0tDTJAU5S4r5Bp6en1NbWRldXV9LI9vf3Rffh4UFbjQj7orlJOLj8LN1lHoWFhVC3gZNZ8QZCjcjOzha+EQsLCyouLs5uPTZCZNYdxglQ80a8vb1JhYAaAT3wjXh+fnbaj/6VEeh8cDnXN93c3MhAWev/wYccHRTxhiHgISSQO+uqluFgZcU5omJiYlR0dLRKSkqyyXAjQg53c0ILDxRz8AMCAmy6gYGBwoNc1zUOPRyWRkRFRane3l65vGZnZ+U6xiKcfHLRTU9Pq8XFRdXa2irXOyjm4EMOPfD39vaEh3zo6elRkZGRdvv8aAQSaG5uThR0YFE8XowYHh4W40CNgB74RuAwsbGxdvv8mJi4+VBWRoCn17UO3kh4oEaAZ44/ShprWMHuUaNDr3HOB8lqzg1JuPX1dWpqaqKTkxO5S/AIwsOHQ0eTk5Pyn0MpetBvaWkh7sZyd3B3tLyJActmBS/gfcFvSMlwnGJiYoI40SgjI0MuNJwK321tbVFqairxw0V04RXOD7ne8/PzxRjoosFxvtiVM7532qxQDaurqxDZwKWo8vLytNk3xsbG5B0KagT0+PTa7BsrKyvyKjfu82NOwFrUthE4PdxtBN6a0AU1Aq3Z3MDwZoVXrGBpBNyP2BqBpoRwGIEQIt7mewdhNL9NkF9W7woB3GEOx28Nu3AwBfl16PuKEeaa/i3YnoviD0Z3d7edq/7vgf102IwApqamVHp6uuVH/9XA+tjnD5T6B5RxRxoPIWfuAAAAAElFTkSuQmCC');
-    background-repeat: no-repeat;
-    background-position-y: center;
-}
+          display: inline-block;
+          background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAeCAYAAACiyHcXAAAAA3NCSVQICAjb4U/gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYYAAB2GAV2iE4EAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAEjElEQVRYR8VWyyt9XxRf3m955FkeIUyYKBOUKIlSSMmIMvEPGBhIYSBFJhRRBoYMTJhQhAF55BUiRd7v9yv2b32Wc+733HPPVb/6/Xw/te+6e6119l57vfYm9QM2NzdVQkKCIiJVWlqqcb9xe3urampqRJaYmKjm5+c1yTcGBgZEFhISovr7+zWuNZwacXd3p+Lj41VRUZEaHx+XBcvLy0X2+fmpGhoaVFBQkOrr61NZWVkqJSVFHRwciHxjY0P0Ozo6VHNzs3J3d1dDQ0Mis4JTI5aXl5Wfn58sCOTm5ioPDw/5//X1pQoKClR1dbXMOzs7ZVPdiPb2dpkD4Pn7+6vGxkaZW8GdlW3Y3d2l+vp6en9/p+vra3p6eqLX11eR+fj40MfHB1VUVBB7iWZmZqiyslJkLi4u5OXlRVVVVRQWFkZra2vCB7AWvh0cHCQ+GLFXiI0kDqGmwdCMUdvb22K9eSwtLYm8uLjYQVZbWyuyrq4u5e3t7SAH+GAqPDzcQbazsyNywJUZdHFxQRxT/HUALAc4FEKNcHWVz0VH/2+Gm5ubpSw5OZkuLy/lv0g5xjKxAsdU6NnZmVAj7u/vbRRutwJC+Pj4qM3sYdsX7jg6OnJwlz5CQ0MVx9pShoEEDQ4OtpRlZmaqnJwcSxnG8fGxhMMFPzjF6OioJJAZkGFwpUgCGsGlKonr6enpEC5eVmSgvr6+GvcPXl5eqKSkRL4VIzT+3wOMODw8dHDVbwykASCJCZf8DeghlHCcn59TRESEMH4Ct3Gqq6sjvjeI+4I0pZGRESorK6O0tDTJAU5S4r5Bp6en1NbWRldXV9LI9vf3Rffh4UFbjQj7orlJOLj8LN1lHoWFhVC3gZNZ8QZCjcjOzha+EQsLCyouLs5uPTZCZNYdxglQ80a8vb1JhYAaAT3wjXh+fnbaj/6VEeh8cDnXN93c3MhAWev/wYccHRTxhiHgISSQO+uqluFgZcU5omJiYlR0dLRKSkqyyXAjQg53c0ILDxRz8AMCAmy6gYGBwoNc1zUOPRyWRkRFRane3l65vGZnZ+U6xiKcfHLRTU9Pq8XFRdXa2irXOyjm4EMOPfD39vaEh3zo6elRkZGRdvv8aAQSaG5uThR0YFE8XowYHh4W40CNgB74RuAwsbGxdvv8mJi4+VBWRoCn17UO3kh4oEaAZ44/ShprWMHuUaNDr3HOB8lqzg1JuPX1dWpqaqKTkxO5S/AIwsOHQ0eTk5Pyn0MpetBvaWkh7sZyd3B3tLyJActmBS/gfcFvSMlwnGJiYoI40SgjI0MuNJwK321tbVFqairxw0V04RXOD7ne8/PzxRjoosFxvtiVM7532qxQDaurqxDZwKWo8vLytNk3xsbG5B0KagT0+PTa7BsrKyvyKjfu82NOwFrUthE4PdxtBN6a0AU1Aq3Z3MDwZoVXrGBpBNyP2BqBpoRwGIEQIt7mewdhNL9NkF9W7woB3GEOx28Nu3AwBfl16PuKEeaa/i3YnoviD0Z3d7edq/7vgf102IwApqamVHp6uuVH/9XA+tjnD5T6B5RxRxoPIWfuAAAAAElFTkSuQmCC');
+          background-repeat: no-repeat;
+          background-position-y: center;
+      }
       .input-field {
           width: 100%;
           padding: 1rem ;
           text-align: right;
           margin: 1rem;
-          font-family: Yekan;
+          font-family: "Vazirmatn";
       }
   </style>
 </head>
 <body>
 
-    <!-- <div class="input-icons">
-      
-      <input id="rangeDatePicker"  class="input-field vazirmatn" type="text" placeholder="">
-      <span class="icon">📅</span>
-  </div> -->
-    <!-- <input id="singleDatePicker" class="vazirmatn" > -->
-    <!-- <input id="rangeDatePicker" class="icon-rtl vazirmatn " > -->
-
-    <!-- <div id="input-container" class="input-container">
-      
-      <input id="rangeDatePicker_input" class="input-field vazirmatn" type="text" >
-      <span id="rangeDatePicker_icon" class="icon" >📅</span>
-    </div> -->
-    <input class="input-field calendar-icon" type="text" >
+    <input id="jalaliDate" class="input-field calendar-icon" type="text" >
     <br/>
-    <div id="dateInput" class="input-icons">
-      <i class="fa fa-calendar icon"></i>
-      <input class="input-field" type="text" >
-  </div>
+    <input id="gregorianDate" class="input-field calendar-icon" type="text" >
 <!-- <script src="jquery.min.js"></script> -->
 <!-- <script src="moment.js"></script> -->
 <!-- <script src="jalali-moment.browser.js"></script> -->
 <!-- <script src="knockout.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/fa.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jalali-moment@3.2.3/dist/jalali-moment.browser.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
 
 <script src="../src/daterangepicker.js"></script>
 
   <script>
     jQuery(document).ready(function($){
-      // moment.locale('fa');
       
-      $(".input-field").daterangepicker({
+      $("#jalaliDate").daterangepicker({
       locale:'fa',
-      firstDayOfWeek : 3,
+      firstDayOfWeek : 6,
       forceUpdate: true,
       orientation:'left',
       single:true,
-
       calendar_type: 'jalali',
-
-      periods: ['day','month', 'quarter', 'year'],
+      periods: ['day'],
       hideinput: true,
       callback: function (startDate, endDate, period) {
         if(!$(this).single) {
@@ -133,8 +94,52 @@
           $(this).val(cellText);
       }
     });
+
+    $("#gregorianDate").daterangepicker({
+      locale:'en',
+      firstDayOfWeek : 1,
+      forceUpdate: true,
+      orientation:'left',
+      single:true,
+      calendar_type: 'gregorian',
+      periods: ['day'],
+      hideinput: true,
+      callback: function (startDate, endDate, period) {
+        if(!$(this).single) {
+          $(this).val(startDate.format('LL'));
+          return;
+        }
+        var title = "";
+        switch (period) {
+          case 'day':
+            title = startDate.format('LL') + (endDate ? ' -' + endDate.format('MMMM YYYY') : '');
+            break;
+          case 'week':
+            title = startDate.format('MMMM YYYY') + ' - ' + endDate.format('MMMM YYYY');
+            break;
+          case 'month':
+            title = startDate.format('MMMM YYYY') + ' - ' + endDate.format('MMMM YYYY');
+            break;
+          case 'quarter':
+            title = ["spring", "summer", "autumn", "winter"][startDate.quarter()-1] + ' ' + startDate.format('YYYY') + ' - ' + ["spring", "summer", "autumn", "winter"][endDate.quarter()-1] + ' ' + endDate.format('YYYY');
+            break;
+          default:
+            title = startDate.format('YYYY') + ' - ' + endDate.format('YYYY');
+            break;
+        }
+        $(this).val(title);
+      }
+      ,
+      callbackCellSelected: function (cellText, period, calendar_type) {
+        if($(this).single)
+          $(this).val(cellText);
+      }
+    });
+
+
 });
     
+
   </script>
 
 </body>
