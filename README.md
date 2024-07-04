@@ -4,7 +4,7 @@ configurable datepicker component that can use as inputdate or inputrangedate, a
 ![DatejoorPicker](https://github.com/Joorak/DatejoorPicker/assets/32602338/729631ef-97f6-48d7-8f16-bd4d6747068b)
 
 ## PreRequests
-1. https://cdnjs.cloudflare.com/ajax/libs/jquery/x.x.x/jquery.min.js"
+1. https://cdnjs.cloudflare.com/ajax/libs/jquery/x.x.x/jquery.min.js
 2. https://cdnjs.cloudflare.com/ajax/libs/moment.js/x.x.x/moment.min.js
 3. https://cdn.jsdelivr.net/npm/jalali-moment@x.x.x/dist/jalali-moment.browser.js
 4. https://cdnjs.cloudflare.com/ajax/libs/knockout/x.x.x/knockout-latest.min.js
